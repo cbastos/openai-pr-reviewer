@@ -1,5 +1,4 @@
 import { getOpenAICompletion } from "./getOpenAICompletion.js";
-import { criterias } from "../criterias/index.js";
 import { memory_logs } from "./memory_logs.js";
 import { react_style_guide_rules } from "../rules/react_style_guide_rules.js";
 
