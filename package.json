@@ -1,0 +1,21 @@
+{
+  "name": "starter_github_app",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "lint": "standard"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "smee-client": "^1.2.3",
+    "standard": "^17.0.0",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.2",
+    "octokit": "^2.0.14"
+  }
+}
